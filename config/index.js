@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "a6332601682c1a1ae2536a4b56f60230",
 
     // 模板消息id
-    TEMPLATE_ID: "FdurtBE5OfGtGXLnBCQq5A_E8cykpHw6FDEfgGGhznU",
+    TEMPLATE_ID: "74wpXcMX992omWU69rT3IUOpQpGOFVChZwWOY2hq4Y4",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "oLGPa5_hv6XJb6_0fo2QqT8R7yjc",
@@ -53,7 +53,7 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "美丽可爱亲亲老婆", "year": "2001", "date": "09-01"},
+      {"type": "生日", "name": "美丽可爱亲亲老婆", "year": "2001", "date": "09-02"},
       {"type": "节日", "name": "在一起纪念日", "year": "2019", "date": "09-28"},
       {"type": "生日", "name": "你的狗子", "year": "1999", "date": "12-08"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
@@ -75,7 +75,7 @@ export const config = {
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 "希望有天可以拉着你的手，去敬各位来宾的酒。"
-    LITERARY_PREFERENCE: "希望有天可以拉着你的手，去敬各位来宾的酒。"
+    LITERARY_PREFERENCE: "【希望有天可以拉着你的手，去敬各位来宾的酒。】"
 
 
     }

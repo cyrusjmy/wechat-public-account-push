@@ -53,9 +53,10 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "美丽可爱亲亲老婆", "year": "2001", "date": "09-02"},
+      {"type": "生日", "name": "美丽可爱亲亲老婆", "year": "2001", "date": "09-01"},
       {"type": "节日", "name": "在一起纪念日", "year": "2019", "date": "09-28"},
       {"type": "生日", "name": "你的狗子", "year": "1999", "date": "12-08"},
+      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -64,7 +65,10 @@ export const config = {
 
     /** 日期相关 */
 
-
+    // 在一起的日子，格式同上
+    LOVE_DATE: "2019-09-28",
+    // 纪念日
+    MARRY_DATE: "2019-09-08",
 
 
     /** 每日一言 */
@@ -81,8 +85,8 @@ export const config = {
 // 天气：{{weather.DATA}}  
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
-// 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
+// 今天是我们认识的第{{love_day.DATA}}天
+// 今天是我们恋爱的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  

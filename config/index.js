@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "a6332601682c1a1ae2536a4b56f60230",
 
     // 模板消息id
-    TEMPLATE_ID: "74wpXcMX992omWU69rT3IUOpQpGOFVChZwWOY2hq4Y4",
+    TEMPLATE_ID: "EkWdkRkHCmaAoXR7kMrhOkpgNjQR55X5fyFCCmyXRmg",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "oLGPa5_hv6XJb6_0fo2QqT8R7yjc",
@@ -74,8 +74,8 @@ export const config = {
     /** 每日一言 */
 
     // 好文节选的内容类型
-    // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 "希望有天可以拉着你的手，去敬各位来宾的酒。"
-    LITERARY_PREFERENCE: "【希望有天可以拉着你的手，去敬各位来宾的酒。】"
+    // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+    LITERARY_PREFERENCE: "【动画，漫画】"
 
 
     }
